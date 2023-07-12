@@ -1,0 +1,46 @@
+1. Create New Project →Empty Activity→ Next
+2. Name: My Visiting Card
+Package name:
+Save location: (save the file in the location where software is installed)
+Language: Java
+SDK : Android 5.1
+3. Activity_main.xml
+1. Delete the constraint till xmlns and type
+<Linear layout
+Delete Hello world Text
+2. Pallet-Legacy-Relative Layout (Drag and Drop in design: inserted can be viewed in
+component Tree)
+<Relative Layout
+Android : layout _height=”150”
+3. Palette – Text -- Text View (Drag and drop in Relative layout)
+[use the constraints helps in moving for positioning]
+Attribute:
+Text: Company Name
+Text Style: Bold
+Text Size: 24dp
+Text color:
+Text Alignment:
+4. To insert Logo
+Note: filename of the image should not have: capitals, numbers, special characters, or
+spaces while saving the file. Extension in jpg]Copy-paste the image into the drawable folder and select the first option.
+Palette -- common – image view [drag and drop]
+Using the constraints move and position the image.
+5. To Draw the Line
+Palette -- Widgets –view [drag and drop]
+Go to code:
+<view
+Delete layout weight
+Android: layout height=2dp
+Android: background:” black”
+Component Tree
+Linear layout(right-click) – convert orientation to vertical
+6. Insert remaining text
+Palette -- text view (drag and drop)
+Change the attributes
+7. To draw a Horizontal line between Job Title and Phone
+Palette—widgets –view (Drag and drop in the required position.
+Go to code:
+<view
+Delete layout weight
+Android: layout height=2dp
+Android: background:” black”
